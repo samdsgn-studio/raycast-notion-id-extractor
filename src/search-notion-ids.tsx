@@ -43,13 +43,6 @@ function entryAccessories(entry: NotionIdHistoryEntry): List.Item.Accessory[] {
       },
       tooltip: "Pinned",
     });
-    accessories.unshift({
-      icon: {
-        source: Icon.Star,
-        tintColor: Color.Yellow,
-      },
-      tooltip: "Pinned",
-    });
   }
 
   return accessories;
