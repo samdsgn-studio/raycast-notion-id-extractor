@@ -1,15 +1,27 @@
 {
   "name": "notion-url-to-id",
+  "version": "1.0.0",
   "title": "Notion URL to ID",
   "description": "Extract a Notion page ID from a Notion URL and copy it.",
   "icon": "icon.png",
   "author": "sam.dsgn",
   "homepage": "https://samdsgn.studio/",
+  "keywords": [
+    "notion",
+    "id",
+    "url",
+    "uuid",
+    "clipboard",
+    "productivity"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/samdsgn-studio/raycast-notion-id-extractor"
   },
   "license": "MIT",
+  "platforms": [
+    "macOS"
+  ],
   "categories": [
     "Productivity"
   ],
@@ -58,6 +70,7 @@
     "build": "npx ray build -e dist",
     "dev": "npx ray develop",
     "fix-lint": "npx ray lint --fix",
-    "lint": "npx ray lint"
+    "lint": "npx ray lint",
+    "publish": "npx @raycast/api@latest publish"
   }
 }
