@@ -1,5 +1,10 @@
 # Changelog
 
+## [Store Copy Refresh] - {PR_MERGE_DATE}
+
+- Refine the Raycast Store description and README copy.
+- Clarify the extension's purpose and key features.
+
 ## [Initial Release] - {PR_MERGE_DATE}
 
 - Extract a Notion page ID from the focused browser tab or clipboard.
